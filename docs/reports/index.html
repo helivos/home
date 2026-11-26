@@ -1,0 +1,228 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reports · Helivos Docs</title><style>:root{--bg:#0a0a0a;--card:#191919;--ink:#fff;--body:#dadbdf;--mid:#7d8187;--line:#212327;--acc:#c4b5fd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--body);font:16px/1.65 Inter,-apple-system,BlinkMacSystemFont,sans-serif}
+a{color:var(--acc)}header{border-bottom:1px solid var(--line);padding:16px 24px;display:flex;gap:24px;align-items:center}
+header a{color:var(--ink);text-decoration:none;font-weight:600}header .s{color:var(--mid);font-weight:400}
+.wrap{display:flex;max-width:1100px;margin:0 auto;gap:40px;padding:32px 24px}
+nav{width:200px;flex:none;font-size:14px}nav a{display:block;color:var(--mid);text-decoration:none;padding:5px 0}nav a:hover,nav a.on{color:var(--ink)}
+main{min-width:0;flex:1;max-width:740px}h1,h2,h3{color:var(--ink);line-height:1.25}h1{font-size:34px;margin-top:0}h2{margin-top:2em;font-size:22px}h3{font-size:17px}
+table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:var(--card);color:var(--ink)}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:.9em}pre{background:var(--card);padding:14px;border-radius:8px;overflow-x:auto}
+@media(max-width:760px){.wrap{flex-direction:column;gap:16px}nav{width:auto}}</style></head><body>
+<header><a href="/">Helivos</a><span class="s">Docs</span></header>
+<div class="wrap"><nav><a href="/docs/">Overview</a><a href="/docs/dashboard/">Home dashboard</a><a href="/docs/inbox/">Inbox</a><a href="/docs/members/">Members</a><a href="/docs/retention/">Retention</a><a href="/docs/workflows/">Workflows</a><a href="/docs/marketing/">Marketing</a><a href="/docs/check-in/">Check In</a><a href="/docs/schedule/">Schedule</a><a href="/docs/reports/" class="on">Reports</a><a href="/docs/support/">Support</a><a href="/docs/settings/">Settings</a></nav><main><h1>Reports</h1>
+<h2>What it is for</h2>
+<p>Reports answer the questions you would otherwise work out on a spreadsheet: how much did we collect, who left and why, how full are our classes, what does a new member cost us to win. There are 22 reports, grouped by what they are about.</p>
+<h2>Who can see it</h2>
+<p><strong>Admins and managers only.</strong> The Staff role does not see Reports in the sidebar, because revenue, marketing spend and member loss are sensitive. This is enforced on the server too, not just hidden.</p>
+<h2>How to use it</h2>
+<ol>
+<li>Open <strong>Reports</strong> from the sidebar.</li>
+<li>Use the tabs to filter by area: <strong>Overview</strong>, <strong>Billing</strong>, <strong>Leads</strong>, <strong>Members</strong>, <strong>Retention</strong>, <strong>Schedule</strong>.</li>
+<li>Click a report.</li>
+<li>Use the <strong>month picker</strong> to choose the month. Some reports are a snapshot of right now and say so (the month has no effect on them).</li>
+<li>Read the headline numbers at the top, then the chart, then the table underneath.</li>
+</ol>
+<h3>Fill in the Monthly Performance Report</h3>
+<p>The Monthly Performance Report is the main one, and part of it depends on information only you have, such as ad spend and revenue from outside the membership system.</p>
+<ol>
+<li>Open <strong>Monthly Performance Report</strong>.</li>
+<li>Click <strong>Enter this month's data</strong>.</li>
+<li>Add your ad <strong>spend</strong>, <strong>leads</strong> and <strong>new members</strong> for each channel. Meta and Google figures sync automatically if those accounts are connected, and are marked <strong>Synced</strong>.</li>
+<li>Add any <strong>other revenue</strong> for the month, and any past cancellations from before you used Helivos.</li>
+<li>Go back to the report and check the numbers.</li>
+</ol>
+<p>The "organic" channel's lead count is filled in for you: it is the number of leads that arrived from your website that month.</p>
+<h2>The reports</h2>
+<h3>Overview</h3>
+<p><strong>Monthly Performance Report.</strong> Revenue by stream, payment collection, attendance, member growth, cancellations, lifetime value by plan, and marketing spend with cost per lead and cost to win a member. Details below.</p>
+<h3>Billing</h3>
+<table>
+<thead>
+<tr>
+<th>Report</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sales</strong></td>
+<td>Everything collected in the month, split into <strong>Membership subscriptions</strong> and <strong>Other sales</strong>, with every transaction listed. Refunds are shown separately and left out of the totals.</td>
+</tr>
+<tr>
+<td><strong>Scheduled Revenue</strong></td>
+<td>Money expected from paying members over the next 7 and 30 days, week by week, and how much is past due.</td>
+</tr>
+<tr>
+<td><strong>Failed Payment</strong></td>
+<td>Payments that failed this month, the total amount, and the share of affected members who later paid.</td>
+</tr>
+<tr>
+<td><strong>Money Owed</strong></td>
+<td>Members with an outstanding balance, how much, and how many days overdue.</td>
+</tr>
+<tr>
+<td><strong>Members by plan</strong></td>
+<td>Each plan with how many members are paying, trialing, on hold or owing money. A snapshot of today.</td>
+</tr>
+</tbody>
+</table>
+<h3>Leads and members</h3>
+<table>
+<thead>
+<tr>
+<th>Report</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lost Leads</strong></td>
+<td>Leads and trials that did not become members, by the month they were lost. They clear from your Leads list at month end but stay here.</td>
+</tr>
+<tr>
+<td><strong>Lead Conversion</strong></td>
+<td>Leads this month, how many became members, and the rate, by channel.</td>
+</tr>
+<tr>
+<td><strong>New Memberships</strong></td>
+<td>Members who joined in the month with plan value (<strong>New MRR</strong>) and average plan value.</td>
+</tr>
+<tr>
+<td><strong>Membership Growth</strong></td>
+<td>The last 6 months: starting members, new, cancelled, net change and ending members.</td>
+</tr>
+<tr>
+<td><strong>Membership Plan Changes</strong></td>
+<td>Upgrades and downgrades in the month.</td>
+</tr>
+<tr>
+<td><strong>Members</strong></td>
+<td>Your membership base by status and plan.</td>
+</tr>
+</tbody>
+</table>
+<h3>Retention</h3>
+<table>
+<thead>
+<tr>
+<th>Report</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Retention</strong></td>
+<td>Churn rate, the current spread of risk levels, and how automatic texts and staff follow-ups performed.</td>
+</tr>
+<tr>
+<td><strong>Members At Risk</strong></td>
+<td>Paying members who have not booked a class recently, with the monthly revenue they represent.</td>
+</tr>
+<tr>
+<td><strong>Cancellations by reason</strong></td>
+<td>Who cancelled and why, churn rate, and revenue lost.</td>
+</tr>
+<tr>
+<td><strong>Absent Clients</strong></td>
+<td>The share of members who have not visited for 7 days or more, day by day.</td>
+</tr>
+<tr>
+<td><strong>Clients Within 90 Days</strong></td>
+<td>Everyone who joined in the last 90 days, with classes so far and risk level. A snapshot of today.</td>
+</tr>
+<tr>
+<td><strong>Client Milestones</strong></td>
+<td>Members who reached a session milestone this month and who is close to the next one.</td>
+</tr>
+<tr>
+<td><strong>Actions</strong></td>
+<td>Calls, chats, emails and automatic texts logged against members this month.</td>
+</tr>
+</tbody>
+</table>
+<h3>Schedule</h3>
+<table>
+<thead>
+<tr>
+<th>Report</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Class Performance</strong></td>
+<td>For each class type: bookings, capacity, fill rate and no-shows.</td>
+</tr>
+<tr>
+<td><strong>No-Shows</strong></td>
+<td>Members who booked but did not check in, by day of the week, with repeat offenders.</td>
+</tr>
+<tr>
+<td><strong>Visits</strong></td>
+<td>Check-ins over time, peak day, and average visits per member.</td>
+</tr>
+</tbody>
+</table>
+<h2>How the important numbers are worked out</h2>
+<h3>Churn rate</h3>
+<p>Churn is the share of members you lost in a month. Helivos works it out as:</p>
+<p><strong>Members lost this month ÷ (members you ended the month with + members who cancelled)</strong></p>
+<p>The bottom of that fraction is the same as everyone you had at the start of the month <strong>plus everyone who joined during it</strong>.</p>
+<p><em>Example.</em> You start the month with 100 members. 12 join and 8 cancel, so you end with 104. Churn = 8 ÷ (104 + 8) = 8 ÷ 112 = <strong>7.1%</strong>. Some tools would divide by the 100 you started with and report 8.0%. Helivos counts new joiners as people who could also have left, which gives a slightly lower number when you are growing quickly.</p>
+<h3>Cost per lead and cost to win a member (CPL and CAC)</h3>
+<ul>
+<li><strong>CPL (cost per lead)</strong> = ad spend ÷ number of leads</li>
+<li><strong>CAC (customer acquisition cost)</strong> = ad spend ÷ number of new members</li>
+</ul>
+<p><em>Example.</em> You spend $2,000 on Meta, get 40 leads and 8 of them join. CPL = $2,000 ÷ 40 = <strong>$50</strong>. CAC = $2,000 ÷ 8 = <strong>$250</strong>. If there were no new members, CAC shows a dash rather than a made-up number. The <strong>blended</strong> figures at the bottom divide the total spend across every channel by the total leads and total new members.</p>
+<p>Spend, leads and new members are what you enter (or what syncs from Meta and Google). Helivos does not match a specific new member back to the ad that brought them.</p>
+<h3>Lead conversion rate</h3>
+<p>New members ÷ leads, for the month. Both numbers come from the same channel table as CPL and CAC, so if that table is incomplete, so is this rate.</p>
+<h3>Lifetime value (LTV) by plan</h3>
+<p>For each plan, Helivos takes every member who has cancelled, multiplies their <strong>monthly plan price by the number of months they stayed</strong>, and averages that across the plan's cancelled members.</p>
+<p><em>Example.</em> Three members cancelled from the Unlimited plan at $80 a month. They stayed 6, 10 and 14 months. Their values are $480, $800 and $1,120, so average LTV = <strong>$800</strong>.</p>
+<p>This is based on members who have left, so it is the lifetime value of a member who eventually cancels, not a forecast for everyone currently paying. Months stayed is the number of days between sign-up and cancellation divided by 30.44, rounded.</p>
+<h3>Engagement rate</h3>
+<p>Members who checked in at least once in the month ÷ members who had at least one booking in the month. Someone who booked and never came counts in the bottom number but not the top.</p>
+<h3>Collection rate</h3>
+<p>On the payment reconciliation: <strong>net collected ÷ gross billed</strong>, from the figures you enter (gross, net, pending, failed, refunded).</p>
+<h3>Class fill rate</h3>
+<p>For each class type: <strong>bookings ÷ (capacity × number of sessions)</strong>. A class with 20 spots that ran 10 times had 200 spots. If it took 150 bookings, the fill rate is 75%. The headline "Avg. fill rate" is the plain average of each class type's fill rate, so a quiet class type pulls it down as much as a busy one lifts it.</p>
+<h3>No-show rate</h3>
+<p>No-shows ÷ all bookings for classes that have already happened this month. "Repeat no-shows" counts members with 2 or more.</p>
+<h3>Scheduled revenue</h3>
+<p>For each paying member, Helivos takes their <strong>monthly equivalent</strong> plan price and puts it in the week their subscription next renews.</p>
+<ul>
+<li><strong>This week:</strong> renewals in the next 7 days.</li>
+<li><strong>This month:</strong> renewals in the next 30 days.</li>
+<li><strong>At risk (past due):</strong> members who are past due.</li>
+</ul>
+<p>Members on hold are left out. Because the figure is the monthly equivalent, an annual plan renewing next week shows as one twelfth of its price, not the full invoice. Treat this report as a monthly run-rate forecast, not a cash forecast.</p>
+<h3>Failed payment recovery</h3>
+<p>Of the members who had a payment fail this month, the percentage who have a successful payment on record since the start of the month.</p>
+<h3>Members At Risk report</h3>
+<p>This uses the same rule as the <strong>At Risk (Churn)</strong> card on the dashboard: paying members with no class <strong>booking</strong> in the window (14 days by default, set in Settings &gt; Retention).</p>
+<ul>
+<li><strong>Medium</strong> tier: their last booking was within one and a half times that window (21 days by default).</li>
+<li><strong>High</strong> tier: longer than that, or never.</li>
+<li><strong>Attendance trend:</strong> the change in their bookings this month compared with last month.</li>
+<li><strong>Revenue at risk:</strong> their combined monthly plan price.</li>
+</ul>
+<h3>Absent clients</h3>
+<p>Each night, Helivos counts the share of tracked members whose last visit was 7 or more days ago (or who have never visited). The report shows that percentage for each day, the average for the month, and how it compares with last month. Members on hold, snoozed members and members on plans left out of retention are not counted.</p>
+<h3>Retention report outcomes</h3>
+<p>For automatic texts and staff actions this month, Helivos compares each member's risk level when the contact happened with their level now, and counts <strong>Improved</strong>, <strong>No change</strong>, <strong>Worse</strong> and <strong>Unknown</strong> (where there was no risk level to compare). See <a href="/docs/retention/">Retention</a>.</p>
+<h2>FAQs</h2>
+<p><strong>My cancellations have "No reason recorded". How do I fix it?</strong>
+Every time staff cancel a membership they must pick a reason. Memberships that ended another way (the member or Stripe ended it, for example after repeated failed payments) have no reason. The dashboard has a list of these so staff can add one.</p>
+<p><strong>Why do my ad numbers show a dash for CAC?</strong>
+No new members were recorded for that channel, so dividing would be meaningless. Enter or sync the new members.</p>
+<p><strong>What does "Snapshot of today" mean?</strong>
+The report always shows how things are right now. Changing the month does nothing.</p>
+<p><strong>Can I export a report?</strong>
+The report page does not have an export button in this version.</p>
+<p><strong>Why is the report empty for a past month?</strong>
+Some reports, such as Absent Clients and the Retention risk spread, rely on the nightly snapshots, so they only go back to when your gym started being scored.</p>
+<p><strong>A member who cancelled their booking in time shows as a No-Show. Is that right?</strong>
+No. A no-show means they kept the booking and did not turn up. If you see cancelled bookings in this report, tell the Helivos team.</p></main></div></body></html>
