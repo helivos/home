@@ -1,0 +1,189 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Members · Helivos Docs</title><style>:root{--bg:#0a0a0a;--card:#191919;--ink:#fff;--body:#dadbdf;--mid:#7d8187;--line:#212327;--acc:#c4b5fd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--body);font:16px/1.65 Inter,-apple-system,BlinkMacSystemFont,sans-serif}
+a{color:var(--acc)}header{border-bottom:1px solid var(--line);padding:16px 24px;display:flex;gap:24px;align-items:center}
+header a{color:var(--ink);text-decoration:none;font-weight:600}header .s{color:var(--mid);font-weight:400}
+.wrap{display:flex;max-width:1100px;margin:0 auto;gap:40px;padding:32px 24px}
+nav{width:200px;flex:none;font-size:14px}nav a{display:block;color:var(--mid);text-decoration:none;padding:5px 0}nav a:hover,nav a.on{color:var(--ink)}
+main{min-width:0;flex:1;max-width:740px}h1,h2,h3{color:var(--ink);line-height:1.25}h1{font-size:34px;margin-top:0}h2{margin-top:2em;font-size:22px}h3{font-size:17px}
+table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:var(--card);color:var(--ink)}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:.9em}pre{background:var(--card);padding:14px;border-radius:8px;overflow-x:auto}
+@media(max-width:760px){.wrap{flex-direction:column;gap:16px}nav{width:auto}}</style></head><body>
+<header><a href="/">Helivos</a><span class="s">Docs</span></header>
+<div class="wrap"><nav><a href="/docs/">Overview</a><a href="/docs/dashboard/">Home dashboard</a><a href="/docs/inbox/">Inbox</a><a href="/docs/members/" class="on">Members</a><a href="/docs/retention/">Retention</a><a href="/docs/workflows/">Workflows</a><a href="/docs/marketing/">Marketing</a><a href="/docs/check-in/">Check In</a><a href="/docs/schedule/">Schedule</a><a href="/docs/reports/">Reports</a><a href="/docs/support/">Support</a><a href="/docs/settings/">Settings</a></nav><main><h1>Members</h1>
+<h2>What it is for</h2>
+<p>Everyone signed up at your gym, in one list. From here you add members, see who owes money, find someone fast, and open a member's profile to manage their plan, billing, holds, notes and retention.</p>
+<h2>Who can see it</h2>
+<p>Admins, managers and staff with the Members permission. Some actions are limited:</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Who</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>View, add and edit members</td>
+<td>Admin, manager, staff</td>
+</tr>
+<tr>
+<td>Export all members to CSV</td>
+<td>Admin</td>
+</tr>
+<tr>
+<td>Place a member on hold</td>
+<td>Admin always. Managers and staff only if allowed in Settings &gt; Security</td>
+</tr>
+<tr>
+<td>Charge a one-off fee</td>
+<td>Admin always. Managers and staff only if allowed in Settings &gt; Security</td>
+</tr>
+</tbody>
+</table>
+<h2>How to use it</h2>
+<h3>Find a member</h3>
+<ol>
+<li>Open <strong>Members</strong> from the sidebar.</li>
+<li>Type a name, email or phone number into the search box.</li>
+<li>Use the filters for <strong>status</strong> (Active, On Hold, Overdue, Cancelled), <strong>plan</strong>, and <strong>waiver</strong> (Signed, Pending, Not sent, Declined).</li>
+<li>Use the sort menu to order by name, join date, or highest or lowest score.</li>
+<li>Switch between list and card views with the view toggle.</li>
+</ol>
+<h3>Add a member</h3>
+<ol>
+<li>Click <strong>Add member</strong>.</li>
+<li>Fill in the <strong>Profile</strong> section: name and email are needed. Phone, date of birth, gender, goal and notes are optional.</li>
+<li>In the <strong>Billing</strong> section, choose <strong>a plan</strong> or <strong>a trial</strong>. A member cannot have both.</li>
+<li>Leave <strong>Send invite</strong> on if you want them to receive an email to set up their account.</li>
+<li>Optionally add <strong>body details</strong> (height, weight, target weight) and a home location.</li>
+<li>Click <strong>Add Member</strong>.</li>
+</ol>
+<p>The sign-up date defaults to today. If you are entering someone who joined earlier, change it, because retention and reports use it.</p>
+<h3>Read the list</h3>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Client</strong></td>
+<td>Name and avatar.</td>
+</tr>
+<tr>
+<td><strong>Motivation</strong></td>
+<td>A coloured dot when their motivation score is low (yellow or red). Members never see this. See <a href="/docs/retention/">Retention</a>.</td>
+</tr>
+<tr>
+<td><strong>Tag</strong></td>
+<td>Labels you have put on them.</td>
+</tr>
+<tr>
+<td><strong>Plan</strong></td>
+<td>Their plan or trial.</td>
+</tr>
+<tr>
+<td><strong>Attended sessions</strong></td>
+<td>Total classes they have been checked into.</td>
+</tr>
+<tr>
+<td><strong>Last check-in</strong></td>
+<td>The last class they attended.</td>
+</tr>
+<tr>
+<td><strong>Last activity</strong></td>
+<td>The last time they used the member app.</td>
+</tr>
+<tr>
+<td><strong>Joined</strong></td>
+<td>Sign-up date.</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>Active, On Hold, Overdue or Cancelled.</td>
+</tr>
+<tr>
+<td><strong>Snooze</strong></td>
+<td>A bell icon for hiding them from retention lists for a while.</td>
+</tr>
+</tbody>
+</table>
+<h3>Open a profile</h3>
+<p>Click a member. The profile has up to five tabs:</p>
+<ul>
+<li><strong>Overview.</strong> Details, waiver and consent, tags, goals and body details, notes and <strong>Log action</strong> buttons, and any hold requests waiting for you.</li>
+<li><strong>Billing.</strong> Their plan, renewal, payments, add a payment method, <strong>Charge fee</strong>, cancel membership, and cancellation notice.</li>
+<li><strong>History.</strong> A timeline of their bookings, notes, actions and changes.</li>
+<li><strong>Motivation.</strong> Their motivation score and the events behind it (if switched on).</li>
+<li><strong>Retention.</strong> Their risk level, health score broken into its three parts, a plain English summary of how they have been training, and a one-year risk history.</li>
+</ul>
+<h3>Put a member on hold</h3>
+<ol>
+<li>Open their profile.</li>
+<li>In the hold section, enter a <strong>reason for hold</strong> (for example, travelling for two months) and confirm. You only see this if your role is allowed to place holds.</li>
+<li>Their billing is paused with Stripe, and they show as <strong>On Hold</strong> everywhere.</li>
+<li>When the hold has an end date, it lifts automatically that night and billing starts again. Otherwise you take them off hold by hand.</li>
+</ol>
+<p>Members can also <strong>request</strong> a hold from the member app. Requests appear on their profile. You can <strong>Approve</strong>, <strong>Approve with extension</strong> (if you are allowed to change hold length), or <strong>Decline</strong> with an optional reason. Each plan sets its own limits (see Settings &gt; Plans).</p>
+<h3>Cancel a membership</h3>
+<ol>
+<li>Open their profile and go to <strong>Billing</strong>.</li>
+<li>Click <strong>Cancel membership</strong>.</li>
+<li>Pick a <strong>reason</strong>. This is required, and it feeds the Cancellations report.</li>
+<li>Choose when it takes effect, and confirm.</li>
+</ol>
+<p>If a member has given notice, you will see the notice and an end date. <strong>Withdraw notice</strong> is available if they change their mind and the notice can still be withdrawn.</p>
+<h3>Snooze a member</h3>
+<p>Click the bell icon on their row, then choose 7 days, 30 days, 90 days, or until you turn it off. Snoozed members are left out of the Retention page and retention reports. The length offered first is your default for their current risk level.</p>
+<h3>Import and export</h3>
+<ul>
+<li><strong>Export all members</strong> to a CSV is an admin action.</li>
+<li><strong>Import</strong> from another system is in Settings &gt; Your Data. Members imported with an email can be sent an invite as part of the import.</li>
+</ul>
+<h2>What the statuses mean</h2>
+<p>A member has one status at a time, and it comes from their billing, not their attendance.</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cancelled</strong></td>
+<td>The account is no longer active.</td>
+</tr>
+<tr>
+<td><strong>On Hold</strong></td>
+<td>A staff member placed them on hold (or an approved hold has started). This wins over everything else below.</td>
+</tr>
+<tr>
+<td><strong>Active</strong></td>
+<td>They are on one of your trials, or their subscription is in good standing.</td>
+</tr>
+<tr>
+<td><strong>Overdue</strong></td>
+<td>They owe money: their subscription is past due, unpaid or paused, they have a failed payment on record, or their subscription was cancelled or ran past its period end without renewing.</td>
+</tr>
+</tbody>
+</table>
+<p>Note: <strong>status</strong> (billing) and <strong>risk</strong> (attendance) move independently. A member can be Active and High risk, or Overdue and Low risk.</p>
+<h2>FAQs</h2>
+<p><strong>Why is a member Overdue when they paid yesterday?</strong>
+A member shows Overdue while any of their payments is still recorded as failed. Helivos keeps one record per invoice, so when a retry or a manual payment succeeds on that invoice it flips from failed to paid and the flag clears. If you collected the money some other way (cash, for example), the invoice may still read as failed. Open their Billing tab to see exactly which payment is flagged.</p>
+<p><strong>Why can I not see Export?</strong>
+Only admins can export.</p>
+<p><strong>What is the difference between Cancelled and Lost?</strong>
+<strong>Cancelled</strong> is a member whose membership ended. <strong>Lost</strong> is a lead who never joined.</p>
+<p><strong>Why is a member's Motivation dot yellow?</strong>
+Their motivation score has dropped to your yellow level (default -10). Typical causes are missed booked classes and weeks with no visit. See <a href="/docs/retention/">Retention</a>.</p>
+<p><strong>I added a member but they cannot book a class.</strong>
+They need a signed waiver, and a plan or a trial (if your gym requires one). Check the <strong>Waiver</strong> field on the Overview tab and their plan. See <a href="/docs/schedule/">Schedule</a> for the full booking rules.</p>
+<p><strong>Can staff change a member's email or plan?</strong>
+Staff can edit most details. Plan changes and cancellations are on the Billing tab.</p>
+<p><strong>What happens to a member's data when they are deleted?</strong>
+Deleting a member removes their login and personal data, including messages and thread state. It asks for your password (and authenticator code if MFA is on) first because it cannot be undone.</p></main></div></body></html>
